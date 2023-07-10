@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="theme-color" content="#000000">
+    <link href="style.css" type="text/css" rel="stylesheet" media="screen">
+    <script src="main.js" defer></script>
+    <title>Snake Game</title>
+</head>
+
+<body>
+
+
+    <game-snake id="snake-1" tabindex="-1">
+        <div class="panel">
+            <div>Score: <span class="score" ref="score">0</span></div>
+
+            <div>Lives: <span class="lives" ref="lives">3</span></div>
+        </div>
+        <div class="arena" ref="arena">
+
+
+        </div>
+        <noscript>
+            <p>
+                This section requires JavaScript to function. Please revisit this site with scripting enabled or in a
+                JavaScript compatible browser.
+            </p>
+        </noscript>
+
+    </game-snake>
+
+
+
+    <div id="modal">
+        <div class="modal-content">
+            <h2>Bad luck! </h2>
+            <p class="modal-info"></p>
+        </div>
+    </div>
+
+</body>
+
+</html>
